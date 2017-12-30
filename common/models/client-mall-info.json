@@ -1,0 +1,42 @@
+{
+  "name": "ClientMallInfo",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+  },
+  "properties": {
+    "nickName": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "recAddresses":{
+      "type": "hasMany",
+      "model": "RecAddress",
+      "foreignKey": "clientMallInfoId"
+    },
+    "carts" : {
+      "type": "hasMany",
+      "model": "Cart",
+      "foreignKey": "clientMallInfoId"
+    },
+    "client" : {
+      "type": "belongsTo",
+      "model": "Client",
+      "foreignKey": ""
+    }
+  },
+  "acls": [
+    {
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

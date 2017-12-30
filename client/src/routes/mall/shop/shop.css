@@ -1,0 +1,39 @@
+
+.shop {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* 内容 */
+/* search */
+.shop .shop-search {
+  margin-top: 15px;
+}
+.shop .shop-search>p{
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.shop .shop-search>p span{
+  font-size: 12px;
+  margin-left: 5px;
+  color: rgb(180,200,180)
+}
+.shop .shop-search .am-search{
+  height: 32px;
+  padding: 0 2px;
+}
+.shop .shop-search .am-search-input{
+  flex: inherit;
+}
+
+/* 按钮条件 */
+.shop .shop-selectBtn {
+  margin-top: 7px;
+}
+
+.shop .shop-selectBtn ul{
+  display: flex;
+}
+.shop .shop-selectBtn ul li{
+  flex: 1;
+}

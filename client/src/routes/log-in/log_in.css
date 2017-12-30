@@ -1,0 +1,31 @@
+
+
+.content{
+padding:1rem;
+}
+.tit{
+  font-size: 20px;
+  text-align: center;
+}
+.list_content{
+  border-radius: 5px;
+  overflow: hidden;
+  clear: both;
+  border:none
+}
+
+.btn{
+  margin: 1rem 0;
+
+}
+.am-list-body{
+  border:0;
+  border-bottom:1px solid #ddd
+}
+.am-list .am-list-body div{
+ padding-left: 0
+}
+.code{
+  text-align: center;
+  color:#108ee9
+}

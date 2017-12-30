@@ -1,0 +1,61 @@
+{
+  "name": "RecAddress",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+  },
+  "properties": {
+    "recipient": {
+      "type": "string",
+      "required": true
+    },
+    "province": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "distinct": {
+      "type": "string",
+      "required": true
+    },
+    "detailAddress": {
+      "type": "string",
+      "required": true
+    },
+    "mobile": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "ails": {
+      "type": "string",
+      "required": true
+    },
+    "isDefault": {
+      "type": "boolean",
+      "default" : false,
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "clientMallInfo" : {
+      "type": "belongsTo",
+      "model": "ClientMallInfo",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

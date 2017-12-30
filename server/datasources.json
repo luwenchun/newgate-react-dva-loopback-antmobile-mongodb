@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "demo.strongloop.com",
+    "port": 3306,
+    "database": "getting_started_intermediate",
+    "username": "demo",
+    "password": "L00pBack",
+    "name": "mysqlDs",
+    "connector": "memory"
+  },
+  "client-gate": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "client-gate",
+    "name": "client-gate",
+    "connector": "mongodb"
+  }
+}

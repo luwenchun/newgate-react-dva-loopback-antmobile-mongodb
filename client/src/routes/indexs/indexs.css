@@ -1,0 +1,18 @@
+.indexs{
+  
+}
+
+/* 头部 */
+.indexs .top {
+  height: 150px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.indexs .indexs-main {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #fff;
+}

@@ -1,0 +1,110 @@
+
+.adsRule{
+  height:300px
+}
+.adsRule .ads-head{
+  height: 56px;
+}
+
+.adsRule .ads-headinfo{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  padding-left: 0;
+  background: #fff;
+  box-shadow: 1px 2px 1px #ccc;
+  z-index: 10000;
+}
+
+
+/* 尾部 */
+.adsRule .ads-foot{
+  height: 40px;
+}
+.adsRule .ads-footinfo{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color:#fff;
+  font-weight: bolder;
+  background: #FF9900;
+  z-index: 1000;
+}
+
+.my-list .spe .am-list-extra {
+  flex-basis: initial;
+}
+
+
+
+/* 地址详情 */
+.adsrule-khinfo {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.adsrule-khinfo>span:nth-child(1) {
+  float: left;
+}
+.adsrule-khinfo>span:nth-child(2) {
+  float: right;
+}
+.adsrule-address {
+  margin-bottom: 10px;
+}
+
+.defaultAds {
+  float: left;
+}
+.edit-del {
+  float: right;
+}
+.edit-del>span:nth-child(1) {
+  margin-right: 5px;
+}
+.edit-del .ads-edit{
+  width: 20px;
+}
+
+.am-list-body::before {
+  display: none !important;
+}
+.ads-backuser_center{
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  line-height: 40px;
+  position: fixed;
+  color:#FF9900;
+  bottom: 50px;
+  left: 0;
+border:1px solid  #FF9900;
+  z-index: 1000;
+  font-weight: bolder;
+}
+
+
+
+
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('../../../icon-font/adsRule/iconfont.eot');
+  src: url('../../../icon-font/adsRule/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../../../icon-font/adsRule/iconfont.woff') format('woff'),
+  url('../../../icon-font/adsRule/iconfont.ttf') format('truetype'),
+  url('../../../icon-font/adsRule/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}

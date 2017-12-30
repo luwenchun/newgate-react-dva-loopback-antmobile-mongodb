@@ -1,0 +1,41 @@
+.success_tit{
+  font-size: 18px
+}
+.my_content{
+  clear: both;
+  overflow: hidden;
+  height:10rem;
+  padding:1rem;
+}
+.success_tit{
+  float: left
+}
+.userinfo_list{
+  float: right;
+  font-size: 14px;
+  line-height: 1.5rem
+}
+.userlist{
+  clear: both;
+  overflow: hidden;
+}
+.content_more{
+  border:1px solid #108ee9;
+  height:6rem;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 6rem;
+  color:#108ee9;
+  margin: 5rem 0
+}
+.gotoshopping{
+  font-weight: bold;
+  border: 1px solid #f06f37;
+  height:3rem;
+  border-radius: 5px;
+  text-align: center;
+  line-height:3rem;
+  color: #f06f37;
+  margin:3rem 0;
+
+}

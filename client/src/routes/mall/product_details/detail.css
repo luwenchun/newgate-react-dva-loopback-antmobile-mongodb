@@ -1,0 +1,139 @@
+.nav{
+   border-bottom: 1px solid #f1f1f1
+}
+.content{
+overflow: hidden;
+clear: both;
+position: relative;
+}
+
+.content_warp{
+  overflow: hidden;
+  clear: both;
+  padding:1rem;
+  display: flex;
+
+}
+.content_tab{
+  height:13rem;
+  overflow:auto;
+  padding:4%;
+  margin:0.5rem 0
+}
+.Tabs{
+  clear: both;
+  overflow: hidden;
+}
+img{
+  max-width: 100%
+}
+.left_integral{
+  float: left;
+}
+.left_integral span{
+  display: block;
+  clear: both;
+  font-size: 14px
+}
+.content_btn{
+  width:100%;
+  border-top: 1px solid #f1f1f1;
+  overflow: hidden;
+  clear: both;
+  padding:3%;
+  position:fixed;
+  bottom:0;
+  z-index: 99;
+  background: #fff
+}
+.current_btn{
+  float: right;
+  width:6.5rem;
+  font-size: 16px;
+  margin-right: 2rem
+}
+.left_integral .integral_text{
+  font-size: 20px;
+  padding-top: 0.3rem;
+  color:#e93b3d;
+  position: relative;
+}
+.table{
+  border:1px solid #f1f1f1;
+  border-bottom: none
+}
+.table ul li{
+  clear: both;
+  overflow: hidden;
+  border-bottom:1px solid #f1f1f1
+}
+.table ul li p{
+  float: left;
+  font-size: 0.9rem
+}
+.current_tit{
+  text-align: center;
+  height:2.5rem;
+  line-height: 2.5rem;
+}
+.table_tit{
+  width:55%;
+}
+.table ul li .tit_content{
+    width:45%;
+    text-align: center;
+    float: left;
+    height:2.5rem;
+    line-height: 2.5rem;
+}
+.table ul li .tit_content div .am-list-item{
+  margin-right: -5.8rem;
+}
+.years{
+  clear: both;
+  overflow: hidden;
+  padding-bottom:1rem
+}
+.years p{
+  float: left;
+  padding-right: 2.5rem;
+    font-size: 0.9rem
+}
+.tit_list{
+  height:2.5rem;
+  line-height: 2.8rem;
+padding-left: 1rem
+}
+.btn_account{
+  background: #fff;
+  height:65px;
+  line-height: 50px;
+  padding:0.5rem 0;
+  position: fixed;
+  z-index: 99;
+  bottom:0;
+  left: 0;
+  right: 0;
+  border-top:1px solid #f1f1f1
+}
+.cart_num{
+  position: absolute;
+  top:0;
+  right:1rem;
+  display: block;
+  background: #e93b3d;
+  width: 15px;
+  text-align: center;
+  height: 15px;
+  line-height: 20px;
+  border-radius: 50%;
+  color:#fff;
+  font-size: 12px
+}
+.btn_fixed{
+  position: relative;
+  overflow: hidden;
+  float: right;
+  padding-right: 1rem;
+  line-height: 40px
+}

@@ -1,0 +1,96 @@
+{
+  "name": "Client",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+  },
+  "properties": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "userId": {
+      "type": "string"
+    },
+    "defaultEmpId": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "img": {
+      "type": "string"
+    },
+    "imgId": {
+      "type": "string"
+    },
+    "personalId": {
+      "type": "string"
+    },
+    "passportId": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "string"
+    },
+    "mobile": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "birthday": {
+      "type": "date"
+    },
+    "topEdu": {
+      "type": "string"
+    },
+    "hyStatus": {
+      "type": "string"
+    },
+    "nation": {
+      "type": "string"
+    },
+    "political": {
+      "type": "string"
+    },
+    "folk": {
+      "type": "string"
+    },
+    "scgzDate": {
+      "type": "date"
+    },
+    "city1": {
+      "type": "string"
+    },
+    "address1": {
+      "type": "string"
+    },
+    "city2": {
+      "type": "string"
+    },
+    "address2": {
+      "type": "string"
+    },
+    "des": {
+      "type": "string"
+    },
+    "isDel": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "clientMallInfo" : {
+      "type": "hasOne",
+      "model": "ClientMallInfo",
+      "foreignKey": "clientMallInfoId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}

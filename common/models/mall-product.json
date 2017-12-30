@@ -1,0 +1,53 @@
+{
+  "name": "MallProduct",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "mixins": {
+  },
+  "properties": {
+    "key": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "catalog": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "number",
+      "required": true
+    },
+    "num": {
+      "type": "number",
+      "required": true
+    },
+    "stock": {
+      "type": "number",
+      "required": true
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "carts" : {
+      "type": "hasMany",
+      "model": "Cart",
+      "foreignKey": "mallProductId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
