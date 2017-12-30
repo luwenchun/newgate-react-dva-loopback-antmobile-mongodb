@@ -8,17 +8,7 @@
 
 ![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/gif/login.gif)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/gif/cart2.gif)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/gif/address.gif)
 
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/user-center.png)
-
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/product-list.png)
-
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/login.png)
-
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/detail.png)
-
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/cart.png)
-
-![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/address.png)
+![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/user-center.png)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/product-list.png)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/login.png)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/detail.png)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/cart.png)![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/address.png)
 
 
 
