@@ -6,7 +6,7 @@
 基于：React+蚂蚁金服Dva框架+Loopback+蚂蚁金服Antd-mobile+Mongodb 
 
 
-![Image text](https://raw.githubusercontent.com/xy-xion/loopback-newgate/master/img/gif/login.gif)
+![Image text](https://raw.githubusercontent.com/xy-xion/newgate-react-dva-loopback-antmobile-mongodb/master/img/gif/login.gif)
 ![Image text](https://raw.githubusercontent.com/xy-xion/loopback-newgate/master/img/gif/product_list.gif)
 
 
