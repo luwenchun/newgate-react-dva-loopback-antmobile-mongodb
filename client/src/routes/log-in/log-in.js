@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'dva';
 import './log_in.css';
 import { Button, List, InputItem, Toast } from 'antd-mobile';
+import Father from "../log-in/father"
 
 function Log_in({ log_in, dispatch }) {
   function inputuser(value) {    // 改变用户名输入框的value
@@ -52,6 +53,7 @@ function Log_in({ log_in, dispatch }) {
       </div>
       <p className="btn"><Button type="primary" onClick={btnpost}>开始试用</Button></p>
       <p className="code">手机发送验证码登录</p>
+      <Father />
     </div>
   )
 }
