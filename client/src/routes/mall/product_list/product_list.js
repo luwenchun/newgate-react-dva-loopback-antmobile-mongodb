@@ -111,7 +111,7 @@ class Demo extends React.Component {
         <div key={rowID} style={{  borderBottom:"1px solid #e6e6e6" }}>
         <div  style={{ padding: '0 15px' }}>
           <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }}>
-            <img style={{ height: '64px', marginRight: '15px' }} src={obj.imageUrl} alt="" />
+            <img style={{width:64, height:64, marginRight: '15px' }} src={obj.imageUrl} alt="" />
             <div style={{ lineHeight: 1 }}>
               <div style={{ marginBottom: '8px',  }} onClick={()=>get_currentid(obj.id)}>{obj.name}</div>
               <div><span style={{ fontSize: '20px', color: '#FF6E27' }}>¥{obj.price}</span></div>

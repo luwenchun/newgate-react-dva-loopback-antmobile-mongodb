@@ -41,18 +41,27 @@ return (
     >积分商城</NavBar>
     </div>
     <p className="content_warp">{product.product_info.name}</p>
-    <p ><img src={pic}/> </p>
+    <p style={{
+				width:"70%"
+				,height:"70%",
+				marginTop: 0,
+				marginBottom: 0, 
+				marginLeft: "auto",
+				 marginRight: "auto"
+				}}>
+			<img 
+			   style={{ 
+					 marginTop: 0,
+					  marginBottom: 0, 
+					  marginLeft: "auto",
+						marginRight: "auto" }}
+						 src={product.product_info.imageUrl} /></p>
     <Tabs tabs={tabs}
-
       initialPage={1}
       onChange={(tab, index) => { console.log('onChange', index, tab); }}
       onTabClick={(tab, index) => { console.log('onTabClick', index, tab); }}
     >
     <div className="content_tab" style={{padding:"0 0 63px 0"}}>
-    <div className="years">
-    <p>保障对象：成年人</p>
-    <p>保障年限：1年</p>
-</div>
   <div className="table">
  <ul>
 <li><p className="table_tit current_tit">保障范围</p><p className="tit_content">保障额度</p></li>
