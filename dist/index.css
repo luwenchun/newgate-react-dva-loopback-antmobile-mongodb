@@ -2698,16 +2698,16 @@ body{
   height: 40px;
 }
 .adsRule .ads-footinfo{
-  height: 40px;
+  height: 43px;
   width: 100%;
   text-align: center;
-  line-height: 40px;
+  line-height: 43px;
   position: fixed;
   bottom: 0;
   left: 0;
   color:#fff;
   font-weight: bolder;
-  background: #FF9900;
+  background: #108ee9;
   z-index: 1000;
 }
 

@@ -150,8 +150,6 @@ export default {
 
     // 跳转显示编辑单条数据
     *edit({ payload: id }, { call, put }) {
-    
-      let data = yield call(adsRuleServer.edit, id);
       console.log (data)
       yield put({
         type: 'editdata',
