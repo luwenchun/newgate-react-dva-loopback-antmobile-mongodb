@@ -1,7 +1,9 @@
 
 html, body, #root {
   height: 100%;
-  background: #ffffff
+  background: #ffffff;
+  font-family: Arial,"PingFang SC","Hiragino Sans GB",
+  STHeiti,"Microsoft YaHei","WenQuanYi Micro Hei",sans-serif
 }
 
 /*reset css*/
@@ -1992,6 +1994,7 @@ padding:1rem;
 .userlist{
   clear: both;
   overflow: hidden;
+  margin-bottom:12rem
 }
 .content_more{
   border:1px solid #108ee9;
@@ -2010,8 +2013,11 @@ padding:1rem;
   text-align: center;
   line-height:3rem;
   color: #f06f37;
-  margin:3rem 0;
+  margin:1.5rem 0;
 
+}
+.btn_logout{
+  margin-top:2rem
 }/* 默认搜索bar */
 .am-search {
   position: relative;
@@ -2749,12 +2755,11 @@ body{
   text-align: center;
   line-height: 40px;
   position: fixed;
-  color:#FF9900;
+  color:#333;
   bottom: 50px;
   left: 0;
-border:1px solid  #FF9900;
+  background: #e6e6e6;
   z-index: 1000;
-  font-weight: bolder;
 }
 
 
@@ -3626,10 +3631,10 @@ padding-left: 1rem
   right:1rem;
   display: block;
   background: #e93b3d;
-  width: 15px;
+  width: 18px;
   text-align: center;
-  height: 15px;
-  line-height: 20px;
+  height: 18px;
+  line-height: 18px;
   border-radius: 50%;
   color:#fff;
   font-size: 12px
@@ -3803,7 +3808,6 @@ padding-left: 0.6rem;
 
 .product_tit{
   font-size: 14px;
-  font-weight: 700
 }
 
 .content_action{
