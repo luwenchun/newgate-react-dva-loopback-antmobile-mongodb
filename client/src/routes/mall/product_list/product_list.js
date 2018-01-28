@@ -108,15 +108,13 @@ class Demo extends React.Component {
       const obj = data[index--];
 
       return (
-        <div key={rowID} style={{  borderBottom:"1px solid #e6e6e6" }}>
-        <div  style={{ padding: '0 15px' }}>
-          <div style={{ display: '-webkit-box', display: 'flex', padding: '15px 0' }}>
-            <img style={{width:64, height:64, marginRight: '15px' }} src={obj.imageUrl} alt="" />
-            <div style>
-              <div style={{ marginBottom: '8px',  }} onClick={()=>get_currentid(obj.id)}>{obj.name}</div>
+        <div key={rowID} style={{ clear:"both",overflow:"hidden", borderBottom:"1px solid #e6e6e6" }}>
+        <div  style={{ display:"flex",padding: '10px 15px' }}>
+            <div style={{float:"left",width:64, height:64,marginRight:15}}><img  src={obj.imageUrl} alt="" /></div>
+            <div style={{float:"left",flex:1 }}>
+              <div style={{ marginBottom: '8px',  }} onClick={()=>get_currentid(obj)}>{obj.name}</div>
               <div><span style={{ fontSize: '20px', color: '#FF6E27' }}>¥{obj.price}</span></div>
             </div>
-          </div>
         </div>
         </div>
       );
